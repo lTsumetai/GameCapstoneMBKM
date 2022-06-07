@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: f642fb970c5fdfb44adef2ebdb398819
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6106487023624667894
+    second: ClawAndTrash_0
+  - first:
+      213: -1196299857731182973
+    second: ClawAndTrash_1
+  - first:
+      213: 1220002423248932762
+    second: ClawAndTrash_2
+  - first:
+      213: 4325972325444244168
+    second: ClawAndTrash_3
+  - first:
+      213: -7224284084683981760
+    second: ClawAndTrash_4
+  - first:
+      213: 8246656505751881274
+    second: ClawAndTrash_5
+  - first:
+      213: -5505162833631307799
+    second: ClawAndTrash_6
+  - first:
+      213: -6194164297913204256
+    second: ClawAndTrash_7
+  - first:
+      213: 7246098665172296838
+    second: ClawAndTrash_8
+  - first:
+      213: -5459932720241843744
+    second: ClawAndTrash_9
+  - first:
+      213: 7811099150532359969
+    second: ClawAndTrash_10
+  - first:
+      213: -6299863609664456954
+    second: ClawAndTrash_11
+  - first:
+      213: -8625184565828543485
+    second: ClawAndTrash_12
+  - first:
+      213: 4002195402072897606
+    second: ClawAndTrash_13
+  - first:
+      213: 5929001035384792234
+    second: ClawAndTrash_14
+  - first:
+      213: -2035053267612738875
+    second: ClawAndTrash_15
+  - first:
+      213: 1632320162153823348
+    second: ClawAndTrash_16
+  - first:
+      213: 3611383930424768517
+    second: ClawAndTrash_17
+  - first:
+      213: 8967655179543992357
+    second: ClawAndTrash_18
+  - first:
+      213: 3517597943699933491
+    second: ClawAndTrash_19
+  - first:
+      213: 363790026113860106
+    second: ClawAndTrash_20
+  - first:
+      213: -3723544461079644468
+    second: ClawAndTrash_21
+  - first:
+      213: 7707277678977928061
+    second: ClawAndTrash_22
+  - first:
+      213: -522507182792507068
+    second: ClawAndTrash_23
+  - first:
+      213: -4354979541162246405
+    second: ClawAndTrash_24
+  - first:
+      213: 1058156779016554833
+    second: ClawAndTrash_25
+  - first:
+      213: 2032661713613368661
+    second: ClawAndTrash_26
+  - first:
+      213: 8743023901101035045
+    second: ClawAndTrash_27
+  - first:
+      213: 2721259444540627856
+    second: ClawAndTrash_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ClawAndTrash_0
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5878
+        width: 1738
+        height: 2269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0db153d766614ba0800000000000000
+      internalID: -6106487023624667894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_1
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 8141
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e151f1e93e56fe0800000000000000
+      internalID: -1196299857731182973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5261
+        width: 177
+        height: 2800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4ed67db15ee010800000000000000
+      internalID: 1220002423248932762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_3
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 6956
+        width: 1535
+        height: 1074
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c25646f8e0f80c30800000000000000
+      internalID: 4325972325444244168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_4
+      rect:
+        serializedVersion: 2
+        x: 6055
+        y: 4863
+        width: 851
+        height: 3063
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c37ef96ef2ebb90800000000000000
+      internalID: -7224284084683981760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_5
+      rect:
+        serializedVersion: 2
+        x: 6958
+        y: 5185
+        width: 849
+        height: 2876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36410a3662027270800000000000000
+      internalID: 8246656505751881274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_6
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 5766
+        width: 1122
+        height: 1130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e719b6029bb993b0800000000000000
+      internalID: -5505162833631307799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_7
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 6705
+        width: 234
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e10a7e9368e90aa0800000000000000
+      internalID: -6194164297913204256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_8
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 6781
+        width: 135
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e60138505f8460800000000000000
+      internalID: 7246098665172296838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_9
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 6478
+        width: 207
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e3707e1c6a34b0800000000000000
+      internalID: -5459932720241843744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_10
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 6355
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12736dcda49966c60800000000000000
+      internalID: 7811099150532359969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_11
+      rect:
+        serializedVersion: 2
+        x: 2901
+        y: 6272
+        width: 127
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6073a84dc636298a0800000000000000
+      internalID: -6299863609664456954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_12
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5472
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c9b97e5503d4880800000000000000
+      internalID: -8625184565828543485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4330
+        width: 421
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648b14e7387aa8730800000000000000
+      internalID: 4002195402072897606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4350
+        width: 512
+        height: 776
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4a80b470b084250800000000000000
+      internalID: 5929001035384792234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 4398
+        width: 795
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad1f4d5d902c3e0800000000000000
+      internalID: -2035053267612738875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_16
+      rect:
+        serializedVersion: 2
+        x: 5387
+        y: 3742
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cf2e00a8a27a610800000000000000
+      internalID: 1632320162153823348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_17
+      rect:
+        serializedVersion: 2
+        x: 7475
+        y: 3742
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508b5800d863e1230800000000000000
+      internalID: 3611383930424768517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_18
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 3153
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52859e48fd2837c70800000000000000
+      internalID: 8967655179543992357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_19
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3153
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33901e851b401d030800000000000000
+      internalID: 3517597943699933491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2090
+        width: 485
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c85fe9117c0500800000000000000
+      internalID: 363790026113860106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_21
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1868
+        width: 628
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc679f37a00535cc0800000000000000
+      internalID: -3723544461079644468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_22
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 2238
+        width: 445
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bc6c0d630c5fa60800000000000000
+      internalID: 7707277678977928061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_23
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1136
+        width: 1133
+        height: 1404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44100115c7eafb8f0800000000000000
+      internalID: -522507182792507068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1199
+        width: 568
+        height: 923
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3ee45e210093c0800000000000000
+      internalID: -4354979541162246405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 14
+        width: 1213
+        height: 1539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15904f1fbf35fae00800000000000000
+      internalID: 1058156779016554833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_26
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1506
+        width: 680
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d267c1f07753c10800000000000000
+      internalID: 2032661713613368661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_27
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 1551
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e80ef5ae5755970800000000000000
+      internalID: 8743023901101035045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ClawAndTrash_28
+      rect:
+        serializedVersion: 2
+        x: 2404
+        y: 575
+        width: 322
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b55850c0bd3c520800000000000000
+      internalID: 2721259444540627856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
