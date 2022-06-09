@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
+    public DialogManager instance;
+
     private string nmScene;
     private GameObject character;
     public Text txtNama;
@@ -24,6 +26,7 @@ public class DialogManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("isOpen", true);
+
 
         //Debug.Log("Starting conversetion with " + dialogue.nama);
         txtNama.text = dialogue.nama;
@@ -46,11 +49,14 @@ public class DialogManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        SoundManager.instance.ButtonClickSfx();
+
         if (sentences.Count == 0)
         {
             EndDialogue();
             return;
         }
+
 
         string sentence = sentences.Dequeue();
 

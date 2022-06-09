@@ -271,7 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 8, Mars
+  m_Text: Gulf of mexico, Mexico
 --- !u!222 &20677918
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -770,7 +770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 2, Mars
+  m_Text: Pantai freedom island, Philiphines
 --- !u!222 &50417520
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 7, Mars
+  m_Text: Lake Maracaibo, Venezuela
 --- !u!222 &256976603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1521,7 +1521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 3, Mars
+  m_Text: Pantai Da Loc Beach, Thanh Hoa Province, Vietnam
 --- !u!222 &257397707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1721,6 +1721,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &266012793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1814,14 +1826,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas ketujuh kapten ada di Lake Maracaibo. Danau  ini berasal dari
+    venezuela.
+  - Banyak masalah tentang kebersihan banyak sampah berserakan di daerah perairan
+    dan danau ini mengalami perubahan warna yang menjadi hijau karena pembuangan
+    limbah rumah tangga dan industri ke danau.
+  - "Limbah menyebabkan nitrogen menumpuk dan alga berkembang biak di permukaan danau.
+    \r\n"
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &275344146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,7 +1888,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 275344148}
   m_OnClick:
     m_PersistentCalls:
@@ -1907,6 +1921,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2516,7 +2542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 1, Mars
+  m_Text: Pantai Kuta, Indonesia
 --- !u!222 &360761963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2738,14 +2764,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas kedelapan kapten ada di Gulf of mexico. teluk  ini berasal
+    dari Mexico, diteluk ini banyak masalah sampah yang berserakan didaerah perairan.
+    Banyak sampah yang mengapung di permukaan air.
+  - Sampah laut di Teluk Meksiko berkisar dari konsentrasi besar sampah ( botol plastik)
+    yang menemukan jalan mereka melalui saluran air badai ke pantai.
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &382982470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2798,7 +2824,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 382982472}
   m_OnClick:
     m_PersistentCalls:
@@ -2831,6 +2857,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2932,14 +2970,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas keenam kapten ada di juhu Beach. Pantai ini berasal dari Mumbai
+    india, banyak masalah tentang kebersihan banyak sampah berserakan di daerah laut
+    maupun di pantai.
+  - Pantai ini sama seperti Chowpatty, pantai ini banyak sekali tumpukan sampah-sampah
+    yang berserakan dimana-mana.
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &390111044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2992,7 +3030,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 390111046}
   m_OnClick:
     m_PersistentCalls:
@@ -3025,6 +3063,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3220,7 +3270,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 6, Mars
+  m_Text: Pantai Juhu, Mumbai India
 --- !u!222 &478822158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3578,6 +3628,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &578383842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3909,14 +3971,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas ke empat kapten ada di pantai Fujiazhuang. Pantai ini berasal
+    dari China. Banyak masalah tentang kebersihan banyak sampah berserakan di daerah
+    laut maupun pantai.
+  - Penyebabnya karena banyak pengunjung yang datang ke pantai itu dan mereka membuang
+    sampahnya dengan sembarangan yang membuat banyak sekali sampah di pantai tersebut.
+  - Di pantai ini. kamu akan mengumpulkan sampah-sampah seperti kayu, plastik dan
+    juga ada penambahan sampah seperti besi. Besi ini bisa diambil dengan menggunakan
+    magnet...
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &630180807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3969,7 +4034,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 630180809}
   m_OnClick:
     m_PersistentCalls:
@@ -4002,6 +4067,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4217,14 +4294,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas kelima kapten ada di Chowpatty Beach. Pantai ini berasal dari
+    Mumbai india. banyak masalah tentang kebersihan banyak sampah berserakan di daerah
+    laut maupun di pantai.
+  - Pantai ini merupakan pantai yang terkenal salah satu pantai terkotor di dunia
+    karena banyak sampah-sampah bertebaran dimana-mana.
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &777568220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4277,7 +4354,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 777568222}
   m_OnClick:
     m_PersistentCalls:
@@ -4310,6 +4387,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4488,11 +4577,13 @@ MonoBehaviour:
   sceneName: ClawScene
   character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
+  - Tugas pertamamu ada di pantai kuta bali. Pantai kuta ini berasal dari Indonesia
+    , di Pantai kuta banyak masalah tentang kebersihan banyak sampah berserakan di
+    daerah laut maupun di pantai.
+  - Penyebab sampah terjadi karena aktivitas pengujung dan hembusan angin barat setiap
+    tahunnya yang membawa sampah dari muara-muara sungai terdekat ke pantai
+  - Di pantai ini, Kamu akan mengumpulkan Sampah-sampah seperti Kayu dan plastic.
+  - "Semoga Kamu berhasil , dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &957071818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4565,6 +4656,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4694,7 +4809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 9, Mars
+  m_Text: Mediterranean Sea
 --- !u!222 &958731153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5040,6 +5155,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5560,6 +5687,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6101,6 +6240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15144fd9a26f1040acada9f09411bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instance: {fileID: 0}
   txtNama: {fileID: 742704207}
   txtDialogue: {fileID: 1498801627}
   animator: {fileID: 2130522969}
@@ -6487,12 +6627,15 @@ MonoBehaviour:
   sceneName: ClawScene
   character: {fileID: 941556129}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas kedua kapten ada di pantai freedom island, pantai ini berasal
+    dari philiphines. banyak masalah tentang kebersihan banyak sampah berserakan
+    di daerah laut maupun di pantai
+  - Penyebab sampah terjadi karena banyaknya penggunaan sampah plastik dinegara tersebut
+    tetapi sampah dihanya dari negara philipina saja tetapi.
+  - Di Manila yang menghadap laut, sebagian besar sampah berakhir di laut. Indonesia,
+    Thailand, Vietnam, dan China merupakan 60% penghasil plastik laut dunia atau
+    8 juta ton per tahun
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &1477360330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6578,6 +6721,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6758,14 +6913,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas ketiga kapten ada di pantai Da Loc Beach, Thanh Hoa Province,
+    pantai ini berasal dari vietnam. banyak masalah tentang kebersihan banyak sampah
+    berserakan di daerah laut maupun di pantai.
+  - Penyebabnya karena banyak orang menggunakan plastik dalam beberapa tahun belakangan
+    mereka memakai plastik untuk melatakan segala barang di dalam kantong plastik.
+  - Ketika plastik sudah selesai digunakan mereka melempar kantongnya kelaut Sampah
+    itu mengapung ke mana pun permukaan laut naik.
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &1499558843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6818,7 +6975,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1499558845}
   m_OnClick:
     m_PersistentCalls:
@@ -6851,6 +7008,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7533,6 +7702,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1574783577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8003,6 +8184,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1640505638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8407,7 +8600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 4, Mars
+  m_Text: Pantai Fujiazhuang, China
 --- !u!222 &1738064389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8858,14 +9051,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nama: asep
   sceneName: ClawScene
-  character: {fileID: 0}
+  character: {fileID: 21837142}
   sentences:
-  - "Halo kapten , selamat atas terpilihnya kamu sebagai penjaga pantai yang baru
-    , disini kamu memiliki misi untuk membersihkan sampah dilaut\u2026\r\n"
-  - "okey, langsung aja kamu membersihkannya. Disini banyak jenis sampah ada botol
-    minum bekas, plastic dan kemasan makan yang lain , kamu harus mengambil sampah2
-    tersebut, semoga kamu berhasil\u2026\r\n"
-  - bye
+  - Selanjutnya tugas terakhir kapten ada di Mediterranean Sea. Laut  ini terletak
+    di antarbenua antara selatan eropa, utara Afrika, dan barat Asia,, dilaut ini
+    banyak masalah sampah yang berserakan didaerah perairan.
+  - Sampah ini terdiri dari sampah plastik . Plastik menyumbang antara 95 hingga
+    100% dari total sampah mengambang, dan lebih dari 50% sampah dasar laut. Plastik
+    sekali pakai mewakili lebih dari 60% dari total sampah laut yang tercatat di
+    pantai.
+  - "Semoga kamu berhasil, dan dapat melanjutkan ke pulau berikutnya\u2026"
 --- !u!114 &1905345402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8918,7 +9113,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1905345404}
   m_OnClick:
     m_PersistentCalls:
@@ -8951,6 +9146,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -9138,6 +9345,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1952385838}
   m_CullTransparentMesh: 1
+--- !u!114 &1972917394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5013898454485410786, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+  m_PrefabInstance: {fileID: 5013898453603055472}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5caa839ff6a6264db734c538154b808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1991055511
 GameObject:
   m_ObjectHideFlags: 0
@@ -9486,6 +9704,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2029645303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9707,6 +9937,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10023,6 +10265,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1972917394}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: ButtonClickSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2060158812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10243,7 +10497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pantai 5, Mars
+  m_Text: Pantai Chowpatty, Mumbai India
 --- !u!222 &2139849276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10331,3 +10585,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142227947}
   m_CullTransparentMesh: 1
+--- !u!1001 &5013898453603055472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410785, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013898454485410815, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 38f379081c491b446b3b0264ebf75e7b, type: 3}
