@@ -10,6 +10,8 @@ public class MainMenuManager : MonoBehaviour
     public GameObject MainPanel;
     public GameObject OptionPanel;
     public GameObject CreditsPanel;
+    public GameObject PlayGamePanel;
+    public GameObject CustomModePanel;
 
 
     // Start is called before the first frame update
@@ -18,12 +20,26 @@ public class MainMenuManager : MonoBehaviour
         MainPanel.SetActive(true);
         OptionPanel.SetActive(false);
         CreditsPanel.SetActive(false);
+        PlayGamePanel.SetActive(false);
+        CustomModePanel.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void PlayGameButton()
+    {
+        PlayGamePanel.SetActive(true);
+    }
+
+    public void CustomModeButton()
+    {
+        CustomModePanel.SetActive(true);
+        PlayGamePanel.SetActive(false);
+        MainPanel.SetActive(false);
     }
 
     public void OptionButton()
@@ -42,6 +58,8 @@ public class MainMenuManager : MonoBehaviour
         OptionPanel.SetActive(false);
         CreditsPanel.SetActive(false);
         MainPanel.SetActive(true);
+        PlayGamePanel.SetActive(false);
+        CustomModePanel.SetActive(false);
     }
 
 

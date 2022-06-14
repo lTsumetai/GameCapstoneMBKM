@@ -815,11 +815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a46262fc9b25e447900567e76e4429b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  magnet: {fileID: 0}
-  magnetDirect: {x: 0, y: 0}
-  timesTamp: 0
-  goToMagnet: 0
 --- !u!1 &974596386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,11 +1518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a46262fc9b25e447900567e76e4429b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  magnet: {fileID: 0}
-  magnetDirect: {x: 0, y: 0}
-  timesTamp: 0
-  goToMagnet: 0
 --- !u!50 &1432346147
 Rigidbody2D:
   serializedVersion: 4
