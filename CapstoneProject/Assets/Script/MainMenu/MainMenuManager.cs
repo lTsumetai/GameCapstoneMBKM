@@ -62,10 +62,9 @@ public class MainMenuManager : MonoBehaviour
         CustomModePanel.SetActive(false);
     }
 
-
-   // public void StartBtn()
+    //public void StoryModeButton()
     //{
-      //  SceneManager.LoadScene("2. Gameplay");
+    //    SceneManager.LoadScene("StoryScene")
     //}
 
     public void ExitGame()
