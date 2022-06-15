@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    public static LevelManager instance;
+
+    public static int levelStage;
+
     public Button[] btnLevels;
 
     [Range(1, 9)]
@@ -12,7 +16,17 @@ public class LevelManager : MonoBehaviour
     
     void Start()
     {
-        
+        if (levelStage > clearLevel)
+        {
+            clearLevel = levelStage;
+            saveGame();
+        }
+        else
+        {
+            GameData data = SaveSystem.LoadGame();
+            clearLevel = data.levelClear;
+            levelStage = 0;
+        }
     }
 
     void Update()
@@ -39,7 +53,7 @@ public class LevelManager : MonoBehaviour
         SaveSystem.SaveGame(this);
     }
 
-    public void loadGame()
+    public  void loadGame()
     {
         GameData data = SaveSystem.LoadGame();
 

@@ -14,7 +14,7 @@ public class SoundManager : MonoBehaviour
 
     private void Awake()
     {
-   /*     if (instance != null)
+        /*if (instance != null)
             Destroy(gameOver);
         else*/
             instance = this;
