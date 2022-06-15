@@ -15,11 +15,11 @@ D:/GameProjects/Unity/MBKMCapstone_Renewal/GameCapstoneMBKM/CapstoneProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51443
+51441
 Successfully changed project path to: D:/GameProjects/Unity/MBKMCapstone_Renewal/GameCapstoneMBKM/CapstoneProject
 D:/GameProjects/Unity/MBKMCapstone_Renewal/GameCapstoneMBKM/CapstoneProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 66.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -35,160 +35,160 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006652 seconds.
+Registered in 0.007269 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  1.297 seconds
 Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (1031ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007740 seconds.
+Registered in 0.009897 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002767276E010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000002646F222010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027672ED3F80 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000002647032DF00 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767010C150 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002646F1FDF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670E12590 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000002646DA04D10 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276719313F0 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000002646F246C20 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027672792C20 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000002646F259E30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027672792C20 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002646EF4E020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276727A7E30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002646EC5D020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767181F820 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002646F2AD220 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670D3FB60 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002646EF63230 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670D3FB60 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002646EC76020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670D6DD70 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002646ECA4230 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767010C150 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000002646F1FDF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670D6DD70 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000002646ECA4230 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671373C30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000002646EC5D020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671373C30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000002646F2AD220 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002766FF5F860 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000002646EF1B470 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671373C30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002646EC5D020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671669010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002646EE07010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671A3CAD0 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002646E4C5880 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767296E020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002646E5A6180 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767296E020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000002646EA32730 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671A2FF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000002646F1FDF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671A3CAD0 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000002646E4C5880 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276729A9C40 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000002646EA32730 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276701A1030 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000002646F1FDF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670D3EE50 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000002646EDF4C40 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276726A2020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002646EA32730 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767183EC30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000002646EE40420 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027670132F60 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000026470844040 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027672AE7270 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000002646EA96D10 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002767183EC30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000002646EC5D020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027671A2FF30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000002646EF6B240 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000276726CA630 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000002646D538860 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.697 seconds
+- Completed reload, in  2.106 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1698ms)
-		BeginReloadAssembly (279ms)
+	ReloadAssembly (2107ms)
+		BeginReloadAssembly (289ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1319ms)
-			LoadAssemblies (172ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1647ms)
+			LoadAssemblies (288ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
+			SetupTypeCache (543ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (495ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (524ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (275ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (290ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2217 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.3 MB.
 System memory in use after: 97.2 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2647.
-Total: 4.169900 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.165200 ms MarkObjects: 3.611900 ms  DeleteObjects: 0.169000 ms)
+Total: 4.185300 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.087700 ms MarkObjects: 3.708200 ms  DeleteObjects: 0.165000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -205,111 +205,253 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/ClawScene.unity
   artifactKey: Guid(489b75e9da80fb34fbc4c0780cd74243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ClawScene.unity using Guid(489b75e9da80fb34fbc4c0780cd74243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb5fabd4d13828f9959d5db7453305') in 0.020088 seconds 
-  Import took 0.025600 seconds .
+Start importing Assets/Scenes/ClawScene.unity using Guid(489b75e9da80fb34fbc4c0780cd74243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd176a92cfce7321ef7c2c55547d3d68') in 0.020543 seconds 
+  Import took 0.026775 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.817707 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(99394af929b143e4c9b2827a6c9892e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(99394af929b143e4c9b2827a6c9892e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f666ba4e9b90412c5febec9b1ea99a90') in 0.015627 seconds 
-  Import took 0.026411 seconds .
+  Time since last request: 76.100142 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(19653f2c05e0444479f1fe2b0a39a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(19653f2c05e0444479f1fe2b0a39a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd556cda83335dc096fa66fb02fc43bfd') in 0.030917 seconds 
+  Import took 0.038423 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.774744 seconds.
-  path: Assets/Item2.prefab
-  artifactKey: Guid(8a6afc6a4479d81448104a80051af2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Item2.prefab using Guid(8a6afc6a4479d81448104a80051af2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc75fa780e56e871de10b27e8b7bfb1') in 0.310444 seconds 
-  Import took 0.315941 seconds .
+  Time since last request: 158.851534 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(5db65fa5db4171c4d94ca14fe0e1085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(5db65fa5db4171c4d94ca14fe0e1085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437ac08cafdb969debbf4cd7c773cff6') in 0.019490 seconds 
+  Import took 0.026047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.002229 seconds.
-  path: Assets/Prefabs/Item2.prefab
-  artifactKey: Guid(38a66c7cc5e13bb47b392ed94ab2bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item2.prefab using Guid(38a66c7cc5e13bb47b392ed94ab2bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cffecdfcd22392716ca82744bb3012') in 0.052536 seconds 
-  Import took 0.060207 seconds .
+  Time since last request: 43.000348 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(619d80c047e782e44b059e887de7c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(619d80c047e782e44b059e887de7c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b66c7e1047cac9044ac662cc117f98') in 0.006378 seconds 
+  Import took 0.015977 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006767 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002646EC76020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646D452600 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026471502030 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646E603020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026470E6E040 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264708A6010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264740FF160 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026471135E40 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646F33E010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026470E6E040 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646E402FD0 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264718A6020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026471502030 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264740FF160 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264708A6010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264708A6010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026473591820 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646F2AD220 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646FD9E020 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026470241010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026474173030 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646FC50010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646E914A20 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026471114C30 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000264707BC010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026473AAD060 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026473152380 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646EDB3010 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026470E6E040 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646D8FC850 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646E402060 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646FDD7430 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002646E914A20 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026470E6E040 doesn't match image D:\GameProjects\Unity\MBKMCapstone_Renewal\GameCapstoneMBKM\CapstoneProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1474ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 7.467400 ms (FindLiveObjects: 0.647000 ms CreateObjectMapping: 0.261300 ms MarkObjects: 6.419800 ms  DeleteObjects: 0.137400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.744563 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(038fc01c5d3b18c47b1cef3f452a3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(038fc01c5d3b18c47b1cef3f452a3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4125936b3d9081a44353e34614d406') in 0.043819 seconds 
+  Import took 0.048448 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.961563 seconds.
-  path: Assets/Sound/BGM 1.mp3
-  artifactKey: Guid(c443f81ed9d853641adc00c3b639c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/BGM 1.mp3 using Guid(c443f81ed9d853641adc00c3b639c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadf2885d32f31ec2e897823c533e094') in 1.388680 seconds 
-  Import took 1.396411 seconds .
+  Time since last request: 51.829994 seconds.
+  path: Assets/Scenes/Level6.unity
+  artifactKey: Guid(516d046a23ee5df43ad9b4b57ca452ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level6.unity using Guid(516d046a23ee5df43ad9b4b57ca452ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f2836cbba43acedf407e10a13abc08') in 0.014854 seconds 
+  Import took 0.021422 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sound/klik.mp3
-  artifactKey: Guid(b269920091927f745b3e713aa913597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/klik.mp3 using Guid(b269920091927f745b3e713aa913597a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68dc0433f445821d81b1f6d4ba53429') in 0.044603 seconds 
-  Import took 0.052084 seconds .
+  Time since last request: 43.792664 seconds.
+  path: Assets/Scenes/Level7.unity
+  artifactKey: Guid(58382d2ddec33924d8a7d1bc4ce71c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level7.unity using Guid(58382d2ddec33924d8a7d1bc4ce71c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0948bfb7d5da626889628007ca5174eb') in 0.017451 seconds 
+  Import took 0.025854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sound/Sea wave 2.mp3
-  artifactKey: Guid(393448254a4fb6c488e7172c51a872b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Sea wave 2.mp3 using Guid(393448254a4fb6c488e7172c51a872b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19807ec111b5a2079fed91a6a73f3a4b') in 0.046497 seconds 
-  Import took 0.052652 seconds .
+  Time since last request: 16.785104 seconds.
+  path: Assets/Scenes/Level8.unity
+  artifactKey: Guid(0cc0fe52ae48fc649b75d9a7a3019821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level8.unity using Guid(0cc0fe52ae48fc649b75d9a7a3019821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a98ab1d60da7908f934a892ba1dab92') in 0.014238 seconds 
+  Import took 0.022601 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sound/Untuk sampah besi, baja, logam dll.wav
-  artifactKey: Guid(6cb4094201ec91842bcb7ecb2e3b747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Untuk sampah besi, baja, logam dll.wav using Guid(6cb4094201ec91842bcb7ecb2e3b747a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9482e734a7ef6d48530fffbf0896b69') in 0.158304 seconds 
-  Import took 0.164103 seconds .
+  Time since last request: 23.231590 seconds.
+  path: Assets/Scenes/Level9.unity
+  artifactKey: Guid(b6a26fed90f1f734e9ca768fb5c6bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level9.unity using Guid(b6a26fed90f1f734e9ca768fb5c6bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5693efd4795ed8ebf1bffe26078c07d6') in 0.016840 seconds 
+  Import took 0.023942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Sound/Movement claw.mp3
-  artifactKey: Guid(75c38eee9dc44614fbd71a8cac7be9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Movement claw.mp3 using Guid(75c38eee9dc44614fbd71a8cac7be9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a302a1cb2366475691fcc48ae2ded81') in 0.079645 seconds 
-  Import took 0.084765 seconds .
+  Time since last request: 22.441090 seconds.
+  path: Assets/Scenes/Level9.unity
+  artifactKey: Guid(b6a26fed90f1f734e9ca768fb5c6bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level9.unity using Guid(b6a26fed90f1f734e9ca768fb5c6bbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbe4452dc0bdc9bc48c133e9c1846d6') in 0.003455 seconds 
+  Import took 0.008953 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sound/Untuk sampah kertas.wav
-  artifactKey: Guid(3bfbb20281f6d2441a22b51119e2684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Untuk sampah kertas.wav using Guid(3bfbb20281f6d2441a22b51119e2684d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341719c49bca1039b9dbb22ec831f99') in 0.085586 seconds 
-  Import took 0.093264 seconds .
+  Time since last request: 0.597834 seconds.
+  path: Assets/Scenes/Level8.unity
+  artifactKey: Guid(0cc0fe52ae48fc649b75d9a7a3019821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level8.unity using Guid(0cc0fe52ae48fc649b75d9a7a3019821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8699d52801bd88d78fa39294f1062a0f') in 0.008189 seconds 
+  Import took 0.017336 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Sound/BGM 2.mp3
-  artifactKey: Guid(a2458ff647913df44971895c93456dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/BGM 2.mp3 using Guid(a2458ff647913df44971895c93456dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccc5d0efd226e28cd71687c9c3ea14c') in 0.063492 seconds 
-  Import took 0.070639 seconds .
+  Time since last request: 0.420430 seconds.
+  path: Assets/Scenes/Level7.unity
+  artifactKey: Guid(58382d2ddec33924d8a7d1bc4ce71c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level7.unity using Guid(58382d2ddec33924d8a7d1bc4ce71c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4018d8a2771cd6f5d551a52ee3cda44') in 0.007205 seconds 
+  Import took 0.015750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Sound/Victory.mp3
-  artifactKey: Guid(b78872ac64a09e14c98bd9466972ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Victory.mp3 using Guid(b78872ac64a09e14c98bd9466972ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df36e9f515977ed15bef9044e7838b6') in 0.078174 seconds 
-  Import took 0.084858 seconds .
+  Time since last request: 0.506527 seconds.
+  path: Assets/Scenes/Level6.unity
+  artifactKey: Guid(516d046a23ee5df43ad9b4b57ca452ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level6.unity using Guid(516d046a23ee5df43ad9b4b57ca452ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c660fa6734b6bcbdf38b802b59422778') in 0.005694 seconds 
+  Import took 0.015294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Sound/Timer tick.mp3
-  artifactKey: Guid(bce70922847476e48b44a496f6942307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Timer tick.mp3 using Guid(bce70922847476e48b44a496f6942307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18520309d0d736d4a390ec462e268c18') in 0.040040 seconds 
-  Import took 0.061144 seconds .
+  Time since last request: 1.129925 seconds.
+  path: Assets/Scenes/Level3.unity
+  artifactKey: Guid(5db65fa5db4171c4d94ca14fe0e1085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level3.unity using Guid(5db65fa5db4171c4d94ca14fe0e1085d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9057a21891777770703ac5478736bb9') in 0.006121 seconds 
+  Import took 0.012215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sound/Sea wave.mp3
-  artifactKey: Guid(58a2b4888d07a27468e2e8472aabfa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Sea wave.mp3 using Guid(58a2b4888d07a27468e2e8472aabfa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebf5d522479d88053c4ab34a7e759c9') in 0.048485 seconds 
-  Import took 0.054364 seconds .
+  Time since last request: 73.825805 seconds.
+  path: Assets/Scenes/Level4.unity
+  artifactKey: Guid(619d80c047e782e44b059e887de7c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level4.unity using Guid(619d80c047e782e44b059e887de7c61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da2a8464c589d7e17a516a50df8177') in 0.004689 seconds 
+  Import took 0.013186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161244 seconds.
+  path: Assets/Scenes/Level5.unity
+  artifactKey: Guid(038fc01c5d3b18c47b1cef3f452a3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level5.unity using Guid(038fc01c5d3b18c47b1cef3f452a3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdb66bfdb9fafc45aab8cc8edfa742f') in 0.004024 seconds 
+  Import took 0.011059 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
