@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ClawScene.unity
     guid: 489b75e9da80fb34fbc4c0780cd74243
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 50c9847b0ce54e54b8290b261e14f3b6
   m_configObjects: {}

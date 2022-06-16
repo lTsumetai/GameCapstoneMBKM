@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
-    public DialogManager instance;
+    public static DialogManager instance;
 
     private string nmScene;
     private GameObject character;
@@ -32,9 +32,6 @@ public class DialogManager : MonoBehaviour
         txtNama.text = dialogue.nama;
 
         nmScene = dialogue.sceneName;// numpang ambil data
-        character = dialogue.character;
-
-        character.SetActive(true);
 
 
         sentences.Clear();
@@ -84,9 +81,8 @@ public class DialogManager : MonoBehaviour
     public void EndDialogue() // tadinya private
     {
         animator.SetBool("isOpen", false);
-        character.SetActive(false);
         //Debug.Log("end of conversation");
-        //laodScene();
+        laodScene();
 
     }
 }
