@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ClawRight : MonoBehaviour
 {
+    public GameObject Magnet;
     private Animator anim;
     public bool clawsOpen;
 
@@ -17,6 +19,11 @@ public class ClawRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Magnet.SetActive(true);
+            gameObject.SetActive(false);
+        }
         if (Input.GetKeyDown(KeyCode.Space) && clawsOpen == true)
         {
             anim.SetTrigger("ClawRightClose");
@@ -28,12 +35,24 @@ public class ClawRight : MonoBehaviour
             clawsOpen = true;
         }
     }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Ship" && clawsOpen == false)
+        if (collision.tag == "CheckPoint" && clawsOpen == false)
         {
-            anim.SetTrigger("ClawRightOpen");
-            clawsOpen = true;
+            StartCoroutine(nameof(StartOpen));
         }
+      
     }
+
+    private IEnumerator StartOpen()
+    {
+        yield return new WaitForSeconds((float)0.5);
+        anim.SetTrigger("ClawRightOpen");
+        clawsOpen = true;
+    }
+
+
+
 }

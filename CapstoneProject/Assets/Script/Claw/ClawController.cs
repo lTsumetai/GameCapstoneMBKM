@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ClawController : MonoBehaviour
 {
-    bool goUp, goDown, goLeft, goRight;
+    bool goUp, goDown;
+    public Vector3 targetPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -36,29 +37,6 @@ public class ClawController : MonoBehaviour
             goUp = false;
         }
 
-        //Input to Left
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            goLeft = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
-        {
-            goLeft = false;
-        }
-
-        //Input to Right
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            goRight = true;
-        }
-        if (Input.GetKeyUp(KeyCode.RightArrow))
-        {
-            goRight = false;
-        }
-
-  
-
-
         //function movement
         if (goUp)
         {
@@ -68,18 +46,8 @@ public class ClawController : MonoBehaviour
         if (goDown)
         {
             gameObject.transform.Translate(0, -0.01f, 0);
-        }
-
-        if (goRight)
-        {
-            gameObject.transform.Translate(0.01f, 0, 0);
-        }
-
-        if (goLeft)
-        {
-            gameObject.transform.Translate(-0.01f, 0, 0);
-        }
-        
-        
+        }    
     }
+
+    
 }

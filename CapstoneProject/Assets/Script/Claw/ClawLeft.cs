@@ -6,6 +6,7 @@ public class ClawLeft : MonoBehaviour
 {
     private Animator anim;
     public bool clawsOpen;
+    public bool clawmode;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,10 @@ public class ClawLeft : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            gameObject.SetActive(false);
+        }
         if (Input.GetKeyDown(KeyCode.Space) && clawsOpen == true)
         {
             anim.SetTrigger("ClawLeftClose");
@@ -30,10 +35,18 @@ public class ClawLeft : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Ship" && clawsOpen == false)
+        if (collision.tag == "CheckPoint" && clawsOpen == false)
         {
-            anim.SetTrigger("ClawLeftOpen");
-            clawsOpen = true;
+            StartCoroutine(nameof(StartOpen));
         }
+
     }
+
+    private IEnumerator StartOpen()
+    {
+        yield return new WaitForSeconds((float)0.5);
+        anim.SetTrigger("ClawLeftOpen");
+        clawsOpen = true;
+    }
+
 }

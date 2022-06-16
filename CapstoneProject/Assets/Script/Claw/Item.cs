@@ -23,9 +23,9 @@ public class Item : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Ship")
+        if (collision.tag == "CheckPoint")
         {
-            anim.SetTrigger("GoDestroyItem");
+            //.SetTrigger("GoDestroyItem");
             StartCoroutine(nameof(DelayDestroy));
             progresStatus.GetComponent<Text>().text = progresvalue + "%";
         }
@@ -33,7 +33,7 @@ public class Item : MonoBehaviour
 
     private IEnumerator DelayDestroy()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds((float)0.5);
         gameObject.SetActive(false);
     }
 }
